@@ -3,6 +3,6 @@ import footballRoutes from "./footballRoutes.js";
 
 const router = express.Router();
 
-router.use("/football", footballRoutes);
+router.use("/api/football", footballRoutes);
 
 export default router;
